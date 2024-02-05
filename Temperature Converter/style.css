@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+
+  .item {
+    /* text-align: center; */
+  }
+
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  select,
+  input[type="number"] {
+    border: none;
+    padding: 0;
+    border-bottom: 2px solid #c9eaef;
+    outline: none;
+  }
+
+  input[type="number"] {
+    width: 100px;
+    padding: 0;
+  }
+
+  select {
+    padding: 5px;
+  }
+
+  button {
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  
+  }
+
+  #result {
+     display: block;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #c9eaef;
+    padding-left: 100px;
+  }
+
+  .temp-unit {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
