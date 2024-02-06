@@ -2,34 +2,51 @@
 <html>
 <head>
   <title>Temperature Converter</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
   <link href="style.css" rel="stylesheet" type="text/css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-*********" crossorigin="anonymous" />
+
   <script src="script.js"></script>
 </head>
 <body>
   <div class="item">
+    <!-- to show the current time with a minute -->
+    <div class="section-1">
+    <div class="section">
+      <span id="current-time"></span>
+    </div>
+    <!-- to show the network, Wi-Fi, and battery -->
+    <div class="icons">
+      <i class="fas fa-signal"></i>
+      <i class="fas fa-wifi"></i>
+      <i class="fas fa-battery-full"></i>
+    </div>
+    </div>
     <h1>Temperature Converter</h1>
     <div class="temp-unit">
       <div>
-        <label for="temperature" class="temp-label">Temperature:</label>
-        <input type="number" id="temperature">
+        <label for="temperature" class="temp-label">Degrees</label>
+        <input type="number" id="temperature" class="input-temperature">
       </div>
       <div class="cont-temp">
-        <label for="type" class="label-type">Type:</label>
-        <select id="type">
+        <label for="type" class="label-type">Type</label>
+        <div class="select-selected">
+        <select class="select-selected" id="type">
           <option value="celsius">Celsius</option>
           <option value="fahrenheit">Fahrenheit</option>
           <option value="kelvin">Kelvin</option>
         </select>
+        </div>
       </div>
     </div>
-    <p>
-      result
+    <p class="result">
+      Result
     </p>
     <div id="result"></div>
-   
-      <div class="button-container">
-        <button onclick="convertTemperature()" class="btn">Convert</button>
-      </div>
+    <div class="button-container">
+      <button onclick="convertTemperature()" class="btn">Convert</button>
+    </div>
   </div>
 </body>
 </html>

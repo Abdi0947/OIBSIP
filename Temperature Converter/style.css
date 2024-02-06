@@ -1,86 +1,148 @@
 body {
-  
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    padding: 0;
-    
-  }
-  .temp-label{
-    margin-bottom: 30px;
-  }
-  .item {
-    /* text-align: center; */
-    width: 300px;
-  }
-  .label-type{
-    margin-left: 10px;
-    margin-bottom: 20px;
-  }
-  label {
-    display: block;
-    margin-bottom: 10px;
-    font-size: 15px;
-  }
-  h1{
-    font-size: 15px;
-    text-align: center;
-    margin-bottom: 40px;
-  }
-.cont-temp{
-  margin-left:60px;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: #e6ebf1;
 }
-  select,
-  input[type="number"] {
-    border: none;
-    padding: 0;
-    border-bottom: 1.5px solid #c9eaef;
-    outline: none;
-  }
 
-  input[type="number"] {
-    width: 100px;
-    padding: 0;
-  }
+.section-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  color: rgb(79, 77, 77);
+}
 
-  select {
-    padding: 5px;
-  }
+.icons {
+  display: flex;
+  align-items: center;
+}
 
-  button {
-    padding: 8px 16px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    cursor: pointer;
-    display: block; /* Make the button a block element */
-    margin-top: 20px; /* Add space above the button */
-    margin-left: auto; /* Align the button to the right */
-    margin-right: auto; /* Align the button to the left */
-    
-  }
-  .button-container {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .button-container button {
-    flex-grow: 1;
-  }
+.icons i {
+  margin-left: 5px;
+}
 
-  #result {
-    display: block;
-    margin-top: 40px;
-    margin-bottom: 20px;
-    border-bottom: 1.5px solid #c9eaef;
-    /* padding-left: 100px; */
-    width
-  }
+#current-time {
+  font-weight: 600;
+}
 
-  .temp-unit{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
+.temp-label {
+  margin-bottom: 30px;
+}
+
+.item {
+  background-color: #fff;
+  width: 300px;
+  padding: 20px 20px 20px 20px;
+  border-radius: 20px;
+  border-right: 3px solid hwb(214 82% 2%);
+}
+
+.label-type {
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+h1 {
+  font-size: 18px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.temp-label,
+.label-type,
+.result {
+  color: gray;
+}
+
+.select-selected {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.cont-temp {
+  margin-left: 20px;
+}
+
+select,
+input[type="number"] {
+  border: none;
+  padding: 0;
+  border-bottom: 1.5px solid rgb(228, 224, 224);
+  outline: none;
+}
+
+.select-selected select option {
+  font-size: 15px;
+  font-family: 400;
+}
+
+input[type="number"] {
+  width: 140px;
+  padding: 0;
+}
+
+select {
+  padding: 5px;
+}
+
+button {
+  padding: 15px 18px;
+  background-color: #2079F2;
+  color: white;
+  border: none;
+  cursor: pointer;
+  display: block;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.button-container button {
+  flex-grow: 1;
+}
+
+#result {
+  display: block;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  border-bottom: 1.5px solid rgb(228, 224, 224);
+}
+
+.result {
+  margin-top: 30px;
+}
+
+.temp-unit {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#temperature,
+#result {
+  font-size: 20px;
+  color: DarkSlateGray;
+}
+
+.btn {
+  font-size: 20px;
+  font-weight: 200;
+}
