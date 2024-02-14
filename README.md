@@ -20,10 +20,6 @@ In the temperature converter project, you will develop a web-based tool that all
 
 Your portfolio is your digital showcase, representing your skills, projects, and achievements. As part of this project, you will create a personalized website that highlights your capabilities as a web developer and designer. You will have the opportunity to unleash your creativity by designing an attractive layout, implementing smooth navigation, and showcasing your previous projects using captivating images, detailed descriptions, and links. This project will allow you to demonstrate your ability to create a professional online presence and leave a lasting impression on potential clients or employers.
 
-We are excited to have you on board for this internship and look forward to supporting you throughout your journey. Get ready to learn, grow, and make a meaningful impact in the world of web development and design!
-
-If you have any questions or need assistance, feel free to reach out to our team. Happy coding!
-
 Best regards,
 
 Abdi Debela
